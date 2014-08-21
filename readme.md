@@ -12,6 +12,7 @@ Description coming to a skeleton near you soon!
 ### Changelog
 **08/20/2014** 
 * Nothing yet, it was just created! In a day!
+
 **08/21/2014**
 * Tightened up media queries a bit for smaller screens
 * Updated demo and seperated demo CSS from Bones core CSS
