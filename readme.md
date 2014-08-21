@@ -6,10 +6,12 @@ Description coming to a skeleton near you soon!
 * Tighten up media queries
 * Make typography more generic
 * Implement some Javascript fanciness, perhaps
+* Flesh out demo
 
 
-### Changelog  
-TODO
+### Changelog
+**08/20/2014** 
+* Nothing yet, it was just created! In a day!
 
 ---
 
