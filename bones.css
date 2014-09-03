@@ -47,8 +47,6 @@ body.nine-sixty, body.twelve-eighty { margin: 16px auto; }
 
 /*** THE RIBS ***/
 .rib {
-    float			: left;
-    clear			: right;
     padding			: 16px;
 }
 .rib.one-eighth     { width: 12.5%; }
@@ -74,17 +72,30 @@ body.nine-sixty, body.twelve-eighty { margin: 16px auto; }
 .rib.seven-eighths.r-margin, .rib.seven-eighths.l-margin    { width: calc(87.5% - 16px); }
 
 /*** PUSH MODS ***/
+.push-one 	{ margin-left: 12.5%; 	}
+.push-two 	{ margin-left: 25%; 	}
+.push-three { margin-left: 37.5%; 	}
+.push-four 	{ margin-left: 50%; 	}
+.push-five 	{ margin-left: 62.5%; 	}
+.push-six 	{ margin-left: 75%; 	}
+.push-seven { margin-left: 87.5%; 	}
 
 /*** PULL MODS ***/
 
 /*** UTILITIES ***/
-.grower { flex: 1 0 0; }
-
 .breaker                { width: 100%; }
 .breaker.sixteen        { height: 16px; }
 .breaker.thirty-two     { height: 32px; }
 .breaker.fourty-eight   { height: 48px; }
 .breaker.sixty-four     { height: 64px; }
+
+.filler { 
+	width: 100%;
+	margin: 0;
+	padding: 0 !important;
+}
+
+.grower { flex: 1 0 0; }
 
 
 /*************************************************************************************************/
@@ -165,8 +176,6 @@ a, a:visited, a:hover { text-decoration: none; }
     .rib.five-eighths.r-margin, .rib.five-eighths.l-margin      { width: calc(62.5% - 8px); }
     .rib.six-eighths.r-margin, .rib.six-eighths.l-margin        { width: calc(75% - 8px);   }
     .rib.seven-eighths.r-margin, .rib.seven-eighths.l-margin    { width: calc(87.5% - 8px); }
-
-    .breaker { margin-bottom: 8px; }
 }
 
 
@@ -199,6 +208,18 @@ a, a:visited, a:hover { text-decoration: none; }
     footer h3       { display: none !important; }
     footer section  { display: none; }
 }
+
+
+/*************************************************************************************************/
+/*** THINGS AND STUFFS TO MOVE TO FLESH **********************************************************/
+
+.rib img {
+    padding: 16px;
+    padding-top: 0;
+    padding-bottom: 8px;
+}
+.rib .l-image { float: left; }
+.rib .r-image { float: right; }
 
 
 /*************************************************************************************************/
