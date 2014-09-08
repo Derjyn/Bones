@@ -15,12 +15,18 @@ a layout off the ground and responsive.
 * Work on Bones identity (logo, color scheme, etc)
 * Enhance GitHub readme with description and usage details
 * Identify and move non-layout styling to "Flesh" project
-* Implement push and pull classes
 * Fix issues related to lonely ribs not having their own rows
 * Update demo and seperate grid examples more thoroughly
 
 
 ### Changelog
+**09/08/2014**
+* Organized CSS a bit
+* Removed redundant junk
+* Implemented push classes
+* Fixed issue with lonely ribs
+* Updated demo, moved to 2 examples and an overview/usage page
+
 **09/03/2014**
 * Updated usage/demo example
 * Added experimental push classes
