@@ -15,8 +15,6 @@ a layout off the ground and responsive.
 * Work on Bones identity (logo, color scheme, etc)
 * Enhance GitHub readme with description and usage details
 * Identify and move non-layout styling to "Flesh" project
-* Fix issues related to lonely ribs not having their own rows
-* Update demo and seperate grid examples more thoroughly
 
 
 ### Changelog
