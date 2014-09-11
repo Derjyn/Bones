@@ -18,6 +18,10 @@ a layout off the ground and responsive.
 
 
 ### Changelog
+**09/10/2014**
+* Started making moves to utilize Flesh
+* Further updated overview and demos
+
 **09/08/2014**
 * Organized CSS a bit
 * Removed redundant junk
