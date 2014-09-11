@@ -11,13 +11,17 @@ a layout off the ground and responsive.
 
 ### Roadmap
 * Tighten up media queries
-* Make typography more generic
 * Work on Bones identity (logo, color scheme, etc)
 * Enhance GitHub readme with description and usage details
-* Identify and move non-layout styling to "Flesh" project
+* Future-proof for various new CSS3 awesomeness
 
 
 ### Changelog
+**09/11/2014**
+* Removed all Flesh related CSS
+* Tweaked overview/demos
+* Cleaned up code
+
 **09/10/2014**
 * Started making moves to utilize Flesh
 * Further updated overview and demos
