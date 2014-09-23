@@ -1,12 +1,11 @@
 # Bones
 Bones is a minimal-frills grid system utilizing flexbox. There are a few extras
-included, such as a very basic reset, some utility classes that expand upon the
-functionality of the grid system, various media queries for common device screen
-sizes, and some basic typography and print styling.
+included such as a very basic reset, some mod and utility classes that expand upon the
+functionality of the grid system, and various media queries for common device screen
+sizes.
 
-Eventually, the more visual bits of the system will be moved into it's own project,
-"Flesh". Bones is very much in an alpha state, but is already usable for getting
-a layout off the ground and responsive.
+The overview and usage (as well as demos) can be found [here](http://derjyn.github.io/Bones).
+Eventually this readme will be updated to contain more details on usage as well.
 
 
 ### Roadmap
@@ -17,6 +16,11 @@ a layout off the ground and responsive.
 
 
 ### Changelog
+**09/23/2014**
+* Cleaned up CSS
+* Modified overview and demo layouts a bit
+* Worked on wording, spelling, and grammar of the overview page
+
 **09/12/2014**
 * Removed Flesh as these two are totally seperate, and Soma will showcase the two together
 * Cleaned up CSS, adhering to the Google HTML/CSS style guide
