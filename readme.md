@@ -4,7 +4,7 @@ included such as a very basic reset, some mod and utility classes that expand up
 functionality of the grid system, and various media queries for common device screen
 sizes.
 
-The overview and usage (as well as demos) can be found [here](http://derjyn.github.io/work/Bones).
+The overview and usage (as well as demos) can be found [here](http://derjyn.github.io/work/bones).
 Eventually this readme will be updated to contain more details on usage as well.
 
 
