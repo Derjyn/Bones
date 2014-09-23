@@ -60,4 +60,4 @@ Eventually this readme will be updated to contain more details on usage as well.
 ---
 
 #### Credits
-Google \- For search awesomeness
+[Google](http://google.com) \- For search awesomeness
