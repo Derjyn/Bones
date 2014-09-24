@@ -1,8 +1,8 @@
 /*
 **
 ** FILE:        bones.css
-** UPDATED:     09/23/2014
-** DESCRIPTION: Bones - A skinny layout framework
+** UPDATED:     09/24/2014
+** DESCRIPTION: Bones - A Skinny Layout System
 ** CREDITS:     Nathan Harris aka Derjyn
 */
 
@@ -32,7 +32,6 @@ body.spaced { margin: 16px; }
 body.nine-sixty, body.twelve-eighty { margin: 16px auto; }
 body.nine-sixty     { max-width: 960px; }
 body.twelve-eighty  { max-width: 1280px; }
-
 
 /*** THE SPINE ***/
 .spine {
@@ -87,7 +86,6 @@ body.twelve-eighty  { max-width: 1280px; }
 .push-six   { margin-left: 75%;   }
 .push-seven { margin-left: 87.5%; }
 
-
 /*************************************************************************************************/
 /*** UTILITIES ***********************************************************************************/
 
@@ -111,7 +109,6 @@ body.twelve-eighty  { max-width: 1280px; }
 .rib img {
   padding: 0 16px 8px 16px;
 }
-
 
 /*************************************************************************************************/
 /*** MEDIA QUERIES *******************************************************************************/
@@ -148,7 +145,6 @@ body.twelve-eighty  { max-width: 1280px; }
     padding: 8px;
   }    
 }
-
 
 /*************************************************************************************************/
 /*** EOF *****************************************************************************************/
