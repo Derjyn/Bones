@@ -10,12 +10,15 @@ Eventually this readme will be updated to contain more details on usage as well.
 
 ### Roadmap
 * Tighten up media queries
-* Work on Bones identity (logo, color scheme, etc)
 * Enhance GitHub readme with description and usage details
 * Future-proof for various new CSS3 awesomeness
 
 
 ### Changelog
+**10/09/2014**
+* More housecleaning
+* Looking to the future for more layout sauce
+
 **09/23/2014**
 * Cleaned up CSS
 * Modified overview and demo layouts a bit
