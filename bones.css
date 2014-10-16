@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        bones.css
-** UPDATED:     10/02/2014
+** UPDATED:     10/16/2014
 ** DESCRIPTION: Bones - A Skinny Layout System
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -16,21 +16,20 @@
   padding: 0;
 }
 
-body {
+html, body {
   height: 100%;
   min-height: 100%;
-  z-index: 0;
 }
 
 /*************************************************************************************************/
 /*** BONE GRID ***********************************************************************************/
 
-/*** THE BODY ***/
+/*** BODY MODS ***/
 body.spaced { margin: 16px; }
-
-body.nine-sixty, body.twelve-eighty { margin: 16px auto; }
+body.nine-sixty, body.twelve-eighty { margin: 0 auto; }
 body.nine-sixty     { max-width: 960px; }
 body.twelve-eighty  { max-width: 1280px; }
+body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 
 /*** THE SPINE ***/
 .spine {
@@ -40,15 +39,18 @@ body.twelve-eighty  { max-width: 1280px; }
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start;
-  padding: 16px;
+  align-content: flex-start;  
 }
-.spine.center   { justify-content: center; }
-.spine.stretch  { align-items: stretch; }
+
+/*** SPINE MODS ***/
+.spine.center { justify-content: center; }
+.spine.centerAll{ align-items: center; justify-content: center; }
+.spine.spaced, .spine.spaced .rib { padding: 16px; }
+.spine.stretch { align-items: stretch; }
 
 /*** THE RIBS ***/
-.rib { 
-  padding: 16px; 
+}
+.rib {   
   float: left; 
   clear: right; 
 }
@@ -84,6 +86,9 @@ body.twelve-eighty  { max-width: 1280px; }
 .push-five  { margin-left: 62.5%; }
 .push-six   { margin-left: 75%;   }
 .push-seven { margin-left: 87.5%; }
+
+/*** OTHER MODS ***/
+.rib.spaced { padding: 16px; }
 
 /*************************************************************************************************/
 /*** UTILITIES ***********************************************************************************/
@@ -123,7 +128,7 @@ body.twelve-eighty  { max-width: 1280px; }
 @media all and (max-width: 320px), (max-width: 360px), (max-width: 384px), (max-width: 533px), (max-width: 600px) {
   body.spaced { margin: 8px; }
 
-  .spine, .rib { padding: 8px; }
+  .spine.spaced, .rib.spaced { padding: 8px; }
 
   .l-margin { margin-left: 8px;   }
   .r-margin { margin-right: 8px;  }
