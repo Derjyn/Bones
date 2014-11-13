@@ -90,7 +90,7 @@ ul li {
   margin-left: 1.5em;
 }
 
-p code, code {
+code, p code {
   background-color: rgb(230,229,210);  
   font-family: monospace;
   margin-right: 0.125em;  
@@ -98,12 +98,18 @@ p code, code {
   padding: 0.0625em 0.25em;
   white-space: pre;
 }
-
 pre, p pre {
   font-family: monospace;
-  overflow : auto;
-  white-space: pre-wrap;
+  margin-bottom: 1em;
+  overflow: inherit;
+  white-space: pre;
   word-wrap: break-word;
+}
+
+pre code {
+  background-color: rgb(230,229,210);
+  display: block;
+  padding: 0.5em;
 }
 
 a {
