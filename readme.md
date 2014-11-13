@@ -15,6 +15,10 @@ Eventually this readme will be updated to contain more details on usage as well.
 
 
 ### Changelog
+**11/13/2014**
+* Added Grunt
+* Minor cleanup
+
 **10/09/2014**
 * More housecleaning
 * Looking to the future for more layout sauce

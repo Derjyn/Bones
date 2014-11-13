@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        bones.css
-** UPDATED:     10/16/2014
+** UPDATED:     11/13/2014
 ** DESCRIPTION: Bones - A Skinny Layout System
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -16,10 +16,8 @@
   padding: 0;
 }
 
-html, body {
-  height: 100%;
-  min-height: 100%;
-}
+html { height: 100%; }
+body { min-height: 100%; }
 
 /*************************************************************************************************/
 /*** BONE GRID ***********************************************************************************/
