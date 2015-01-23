@@ -1,14 +1,14 @@
 /*
 **
 ** FILE:        bones.css
-** UPDATED:     01/23/2015
+** UPDATED:     11/13/2014
 ** DESCRIPTION: Bones - A Skinny Layout System
 ** CREDITS:     Nathan Harris aka Derjyn
 */
 
 
-/******************************************************************************/
-/*** RESET ********************************************************************/
+/*************************************************************************************************/
+/*** RESET ***************************************************************************************/
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -19,14 +19,14 @@
 html { height: 100%; }
 body { min-height: 100%; }
 
-/******************************************************************************/
-/*** BONE GRID ****************************************************************/
+/*************************************************************************************************/
+/*** BONE GRID ***********************************************************************************/
 
 /*** BODY MODS ***/
 body.spaced { margin: 16px; }
 body.nine-sixty, body.twelve-eighty { margin: 0 auto; }
-body.nine-sixty { max-width: 960px; }
-body.twelve-eighty { max-width: 1280px; }
+body.nine-sixty     { max-width: 960px; }
+body.twelve-eighty  { max-width: 1280px; }
 body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 
 /*** THE SPINE ***/
@@ -37,19 +37,20 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: flex-start;  
 }
 
 /*** SPINE MODS ***/
-.spine.center     { justify-content: center; }
-.spine.centerAll  { align-items: center; justify-content: center; }
-.spine.spaced     { padding: 8px; }
-.spine.stretch    { align-items: stretch; }
+.spine.center { justify-content: center; }
+.spine.centerAll{ align-items: center; justify-content: center; }
+.spine.spaced, .spine.spaced .rib { padding: 16px; }
+.spine.stretch { align-items: stretch; }
 
 /*** THE RIBS ***/
-.rib {
-  float: left;
-  clear: right;
+}
+.rib {   
+  float: left; 
+  clear: right; 
 }
 .rib.one    { width: 12.5%; }
 .rib.two    { width: 25%;   }
@@ -61,10 +62,10 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .rib.full   { width: 100%;  }
 
 /*** MARGIN MODS ***/
-.t-margin { margin-top: 16px;   }
-.r-margin { margin-right: 16px; }
-.b-margin { margin-bottom: 16px;}
 .l-margin { margin-left: 16px;  }
+.r-margin { margin-right: 16px; }
+.t-margin { margin-top: 16px;   }
+.b-margin { margin-bottom: 16px;}
 
 /*** RIB MARGIN MOD OFFSETS ***/
 .rib.one.r-margin, .rib.one.l-margin      { width: calc(12.5% - 16px); }
@@ -85,11 +86,10 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .push-seven { margin-left: 87.5%; }
 
 /*** OTHER MODS ***/
-.rib.grower { flex: 1 0 0; }
 .rib.spaced { padding: 16px; }
 
-/******************************************************************************/
-/*** UTILITIES ****************************************************************/
+/*************************************************************************************************/
+/*** UTILITIES ***********************************************************************************/
 
 .breaker              { width: 100%; }
 .breaker.sixteen      { height: 16px; }
@@ -97,37 +97,29 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .breaker.fourty-eight { height: 48px; }
 .breaker.sixty-four   { height: 64px; }
 
-.f-left { float: left; }
-.f-right{ float: right; }
-
 .filler {
   margin: 0;
   padding: 0 !important;
-  width: 100%;
+  width: 100%;  
 }
 
-.no-b-margin { margin-bottom: 0; }
-.no-t-margin { margin-top: 0; }
-.no-l-margin { margin-left: 0; }
-.no-r-margin { margin-right: 0; }
+.grower { flex: 1 0 0; }
 
-.rib img { padding: 0 16px 8px 16px; }
+.f-left { float: left; }
+.f-right{ float: right; }
 
-/*
-  Z-INDEX FIX (HOPEFULLY), SEE: http://goo.gl/Wtw7qS
-  APPLY THIS CLASS TO THE FIRST PARENT CONTAINER (A
-  SPINE PERHAPS?) TO HELP OUT WITH Z-FIGHTING ISSUES
-*/
-.z-fix { opacity: 0.999; }
+.rib img {
+  padding: 0 16px 8px 16px;
+}
 
-/******************************************************************************/
-/*** MEDIA QUERIES ************************************************************/
+/*************************************************************************************************/
+/*** MEDIA QUERIES *******************************************************************************/
 
 @media all and (max-width: 640px) {
   .rib img {
     height: auto;
     padding: 0 16px 8px 16px;
-    max-width: 256px;
+    max-width: 256px;    
   }
 }
 
@@ -149,11 +141,11 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   .rib.six.r-margin, .rib.six.l-margin      { width: calc(75% - 8px);   }
   .rib.seven.r-margin, .rib.seven.l-margin  { width: calc(87.5% - 8px); }
 
-  .rib img {
+  .rib img {    
     height: auto;
-    max-width: 224px !important;
+    max-width: 224px !important;    
     padding: 8px;
-  }
+  }    
 }
 
 /*************************************************************************************************/
