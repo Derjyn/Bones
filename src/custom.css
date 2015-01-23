@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        custom.css
-** UPDATED:     10/02/2014
+** UPDATED:     01/23/2015
 ** DESCRIPTION: Custom demo CSS for Bones
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -127,10 +127,10 @@ a:hover {
 /*************************************************************************************************/
 /*** THEME ***************************************************************************************/
 
-body    { background-color: rgb(87,85,72); }
-.tendon { background-color: rgb(199,198,166); }
-.muscle { background-color: rgb(212,211,183); }
-.skin   { background-color: rgb(230,229,210); }
+body          { background-color: rgb(87,85,72); }
+.spine        { background-color: rgb(199,198,166); }
+.demo .rib    { background-color: rgb(212,211,183); }
+.breaker.demo { background-color: rgb(230,229,210); }
 
 /*************************************************************************************************/
 /*** MEDIA QUERIES *******************************************************************************/
