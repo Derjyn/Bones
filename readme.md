@@ -1,12 +1,5 @@
 # Bones
-Bones is a minimal-frills grid system utilizing flexbox. There are a few extras
-included such as a very basic reset, some mod and utility classes that expand upon the
-functionality of the grid system, and various media queries for common device screen
-sizes.
-
-The overview and usage (as well as demos) can be found [here](http://derjyn.github.io/work/bones).
-Eventually this readme will be updated to contain more details on usage as well.
-
+Bones is a minimal-frills grid system utilizing flexbox. There are a few extras included such as a very basic reset, some mod and utility classes that expand upon the functionality of the grid system, and various media queries for common device screen sizes.
 
 ### Roadmap
 * Tighten up media queries
