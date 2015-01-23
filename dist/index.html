@@ -19,44 +19,49 @@
 
   <!-- BODY -->
   <body class="nine-sixty spaced">
-    <header class="spine spaced b-margin tendon">
+    <header class="spine spacedRibs b-margin tendon">
       <h1 class="rib grower">Bones - A Skinny Layout System</h1>
       <div class="rib r-margin" id="logo"></div>
     </header>
 
     <!-- MAIN -->
-    <main class="spine spaced b-margin tendon">
-      <section class="rib full b-margin">
+    <main class="spine spacedRibs b-margin tendon">
+      <section class="rib full">
         <h2>Bones Overview and Usage</h2>
         <p>
-          Bones is a simple grid layout system for developing responsive sites utilizing flexbox.
-          Apart from the core layout classes, there are several mod and utility classes that aid
-          in designing clean and snappy websites. It can be frustrating to re-invent the wheel
-          constantly, and having a base to start with helps increase the speed of developing a
-          site's layout and design. Many other frameworks exist, but are bloated and difficult
-          to customize or rip apart for one's own devious needs.
+          Bones is a simple grid layout system for developing responsive sites
+          utilizing flexbox. Apart from the core layout classes, there are
+          several mod and utility classes that aid in designing clean and
+          snappy websites. It can be frustrating to re-invent the wheel
+          constantly, and having a base to start with helps increase the speed
+          of developing a site's layout and design. Many other frameworks exist,
+          but are bloated and difficult to customize or rip apart for one's own
+          devious needs.
         </p>
         <p>
-          This is where Bones comes in. Currently in the beta stages, Bones already shines at
-          providing a solid base to get responsive layouts running. In the future, Bones will
-          be married with <i>Flesh</i>, to become a complete front-end site kit, known as <i>Soma</i>.
+          This is where Bones comes in. Currently in the beta stages, Bones
+          already shines at providing a solid base to get responsive layouts
+          running. In the future, Bones will be married with <i>Flesh</i>, to
+          become a complete front-end site kit, known as <i>Soma</i>.
         </p>
         <p>
-          The "skinny" bit of Bones, is in it's simplicity and size. With comments and before
-          any sort of compression, the layout components (the core of Bones) take up under
-          150 lines of code. Now, onto some usage details!
+          The "skinny" bit of Bones, is in it's simplicity and size. With
+          comments and before any sort of compression, the layout components
+          (the core of Bones) take up under 150 lines of code. Now, onto some
+          usage details!
         </p>
       </section>
 
-      <section class="rib full b-margin">
+      <section class="rib full">
         <h3>Spines and Ribs</h3>
         <p>
-          When we reference a grid system, we generally think of elements being laid out in rows
-          and columns. In Bones, a <code>spine</code> would be the row, and a <code>rib</code>
-          would be a column within that row. A spine will fill it's parent container in width.
-          Bones is based on eighths; that is, a full width rib is 100%, on down to the smallest
-          rib being one-eighth the size of it's parent spine. Below is a reference of the rib sizes
-          with class names.
+          When we reference a grid system, we generally think of elements being
+          laid out in rows and columns. In Bones, a <code>spine</code> would be
+          the row, and a <code>rib</code> would be a column within that row. A
+          spine will fill it's parent container in width. Bones is based on
+          eighths; that is, a full width rib is 100%, on down to the smallest
+          rib being one-eighth the size of it's parent spine. Below is a
+          reference of the rib sizes with class names.
         </p>
         <ul>
           <li><code>rib one</code> : 12.5%</li>
@@ -69,7 +74,8 @@
           <li><code>rib full</code> : 100%</li>
         </ul>
         <p>
-          So for example, you could create a single row, three column layout area like this:
+          So for example, you could create a single row, three column layout
+          area like this:
         </p>
 <pre><code>&ltdiv class="spine"&gt
   &ltdiv class="rib two"&gtCONTENT&lt/div&gt
@@ -78,21 +84,23 @@
 &lt/div&gt
 </code></pre>
         <p>
-          Your rib sizes don't necessarily have to add up to eight either. Many grid systems
-          require your columns to add up to their core sizing scheme, such as a twelve column
-          based system needing to be something like 4+6+2=12. These systems sometimes break or
-          corral you into using their sizing standard. Bones is simple to change.	If you wanted,
-          you could easily modify it to be based on 10, 12, or 16 column based sizing. To
-          assist in making ribs easy to work with there are "mod" classes, which are covered below.
+          Your rib sizes don't necessarily have to add up to eight either. Many
+          grid systems require your columns to add up to their core sizing
+          scheme, such as a twelve column based system needing to be something
+          like 4+6+2=12. These systems sometimes break or corral you into using
+          their sizing standard. Bones is simple to change.	If you wanted, you
+          could easily modify it to be based on 10, 12, or 16 column based
+          sizing. To assist in making ribs easy to work with there are "mod"
+          classes, which are covered below.
         </p>
       </section>
 
-      <section class="rib full b-margin">
+      <section class="rib full">
         <h3>Mods</h3>
         <p>
-          Several mod classes exist in Bones to help more finely tweak layouts. Mods
-          differ from utilities, in that mods specifically affect ribs. Below is an
-          overview of these mod classes.
+          Several mod classes exist in Bones to help more finely tweak layouts.
+          Mods differ from utilities, in that mods specifically affect ribs.
+          Below is an overview of these mod classes.
         </p>
         <ul>
           <li><code>l-margin</code> : Adds a 16px margin to the left of a rib</li>

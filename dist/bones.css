@@ -43,15 +43,9 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 /*** SPINE MODS ***/
 .spine.center { justify-content: center; }
 .spine.centerAll{ align-items: center; justify-content: center; }
-.spine.spaced, .spine.spaced .rib { padding: 16px; }
 .spine.stretch { align-items: stretch; }
 
 /*** THE RIBS ***/
-}
-.rib {
-  float: left;
-  clear: right;
-}
 .rib.one    { width: 12.5%; }
 .rib.two    { width: 25%;   }
 .rib.three  { width: 37.5%; }
@@ -62,10 +56,10 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .rib.full   { width: 100%;  }
 
 /*** MARGIN MODS ***/
-.l-margin { margin-left: 16px;  }
-.r-margin { margin-right: 16px; }
-.t-margin { margin-top: 16px;   }
-.b-margin { margin-bottom: 16px;}
+.spine.t-margin, .rib.t-margin { margin-top: 16px;    }
+.spine.r-margin, .rib.r-margin { margin-right: 16px;  }
+.spine.b-margin, .rib.b-margin { margin-bottom: 16px; }
+.spine.l-margin, .rib.l-margin { margin-left: 16px;   }
 
 /*** RIB MARGIN MOD OFFSETS ***/
 .rib.one.r-margin, .rib.one.l-margin      { width: calc(12.5% - 16px); }
@@ -77,15 +71,17 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .rib.seven.r-margin, .rib.seven.l-margin  { width: calc(87.5% - 16px); }
 
 /*** PUSH MODS ***/
-.push-one   { margin-left: 12.5%; }
-.push-two   { margin-left: 25%;   }
-.push-three { margin-left: 37.5%; }
-.push-four  { margin-left: 50%;   }
-.push-five  { margin-left: 62.5%; }
-.push-six   { margin-left: 75%;   }
-.push-seven { margin-left: 87.5%; }
+.rib.push-one   { margin-left: 12.5%; }
+.rib.push-two   { margin-left: 25%;   }
+.rib.push-three { margin-left: 37.5%; }
+.rib.push-four  { margin-left: 50%;   }
+.rib.push-five  { margin-left: 62.5%; }
+.rib.push-six   { margin-left: 75%;   }
+.rib.push-seven { margin-left: 87.5%; }
 
 /*** OTHER MODS ***/
+.spine.spaced,.spine.spacedRibs, .spine.spacedRibs .rib { padding: 8px; }
+.rib.grower { flex: 1 0 0; }
 .rib.spaced { padding: 16px; }
 
 /*************************************************************************************************/
@@ -102,8 +98,6 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   padding: 0 !important;
   width: 100%;
 }
-
-.grower { flex: 1 0 0; }
 
 .f-left { float: left; }
 .f-right{ float: right; }
