@@ -1,7 +1,7 @@
 /*
 **
 ** FILE:        custom.css
-** UPDATED:     10/02/2014
+** UPDATED:     01/23/2015
 ** DESCRIPTION: Custom demo CSS for Bones
 ** CREDITS:     Nathan Harris aka Derjyn
 */
@@ -37,20 +37,20 @@ header h2 {
 #logo {
   background: url("logo.png") no-repeat;
   min-height: 192px;
-  min-width: 192px; 
+  min-width: 192px;
 }
 
 main aside { align-self: stretch; }
 
 div#demo h4 { text-align: center; }
 div#explanation h4 {
-  margin-top: 32px; 
+  margin-top: 32px;
   text-align: left;
 }
 div#explanation ul { margin-bottom: -32px; }
 
 .breaker {
-  background-size: 32px 32px;  
+  background-size: 32px 32px;
   background-image: linear-gradient(90deg, transparent 50%, rgb(199,198,166) 50%);
   line-height: 64px;
   text-align: center;
@@ -60,7 +60,7 @@ div#explanation ul { margin-bottom: -32px; }
 /*** TYPOGRAPHY **********************************************************************************/
 
 html {
-  color: rgb(60,59,56);  
+  color: rgb(60,59,56);
   font-family: sans-serif;
   font-size: 16px;
 }
@@ -91,9 +91,9 @@ ul li {
 }
 
 code, p code {
-  background-color: rgb(230,229,210);  
+  background-color: rgb(230,229,210);
   font-family: monospace;
-  margin-right: 0.125em;  
+  margin-right: 0.125em;
   overflow-x: auto;
   padding: 0.0625em 0.25em;
   white-space: pre;
@@ -113,14 +113,14 @@ pre code {
 }
 
 a {
-  border-bottom: 2px dashed;  
+  border-bottom: 2px dashed;
   color: rgb(87,85,72);
   cursor: pointer;
-  text-decoration: none;    
+  text-decoration: none;
 }
 a:hover {
   border-bottom: none;
-  position: relative;  
+  position: relative;
   top: -0.125em;
 }
 

@@ -46,11 +46,19 @@ module.exports = function(grunt) {
         }
       }
     },
-    // COP TASKS //////////////
+    // COPY TASKS /////////////
     copy: {
       dist: {
         src: '../src/bones.css',
         dest: '../dist/bones.css'
+      },
+      src_flesh: {
+        src: '../dist/bones.min.css',
+        dest: '../../Flesh/src/bones.min.css'
+      },
+      dist_flesh: {
+        src: '../dist/bones.min.css',
+        dest: '../../Flesh/dist/bones.min.css'
       }
     },
   });
