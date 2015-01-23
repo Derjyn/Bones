@@ -37,7 +37,7 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start;  
+  align-content: flex-start;
 }
 
 /*** SPINE MODS ***/
@@ -48,9 +48,9 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 
 /*** THE RIBS ***/
 }
-.rib {   
-  float: left; 
-  clear: right; 
+.rib {
+  float: left;
+  clear: right;
 }
 .rib.one    { width: 12.5%; }
 .rib.two    { width: 25%;   }
@@ -100,7 +100,7 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 .filler {
   margin: 0;
   padding: 0 !important;
-  width: 100%;  
+  width: 100%;
 }
 
 .grower { flex: 1 0 0; }
@@ -119,7 +119,7 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   .rib img {
     height: auto;
     padding: 0 16px 8px 16px;
-    max-width: 256px;    
+    max-width: 256px;
   }
 }
 
@@ -141,11 +141,11 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
   .rib.six.r-margin, .rib.six.l-margin      { width: calc(75% - 8px);   }
   .rib.seven.r-margin, .rib.seven.l-margin  { width: calc(87.5% - 8px); }
 
-  .rib img {    
+  .rib img {
     height: auto;
-    max-width: 224px !important;    
+    max-width: 224px !important;
     padding: 8px;
-  }    
+  }
 }
 
 /*************************************************************************************************/

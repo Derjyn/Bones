@@ -8,6 +8,11 @@ Bones is a minimal-frills grid system utilizing flexbox. There are a few extras 
 
 
 ### Changelog
+**01/23/2015**
+* Minor code cleanup and tweaks
+* Updated demo files and distribution version
+* Updated readme with usage details and notes
+
 **11/13/2014**
 * Added Grunt
 * Minor cleanup
