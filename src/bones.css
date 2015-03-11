@@ -25,8 +25,8 @@ body { min-height: 100%; }
 /*** BODY MODS ***/
 body.spaced { margin: 16px; }
 body.nine-sixty, body.twelve-eighty { margin: 0 auto; }
-body.nine-sixty     { max-width: 960px; }
-body.twelve-eighty  { max-width: 1280px; }
+body.nine-sixty { max-width: 960px; }
+body.twelve-eighty { max-width: 1280px; }
 body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 
 /*** THE SPINE ***/
@@ -41,11 +41,12 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 }
 
 /*** SPINE MODS ***/
-.spine.center { justify-content: center; }
-.spine.centerAll{ align-items: center; justify-content: center; }
-.spine.stretch { align-items: stretch; }
+.spine.center     { justify-content: center; }
+.spine.centerAll  { align-items: center; justify-content: center; }
+.spine.stretch    { align-items: stretch; }
 
 /*** THE RIBS ***/
+.rib        { flex-shrink: 0; }
 .rib.one    { width: 12.5%; }
 .rib.two    { width: 25%;   }
 .rib.three  { width: 37.5%; }
@@ -81,7 +82,7 @@ body.spaced.nine-sixty, body.spaced.twelve-eighty { margin: 16px auto; }
 
 /*** OTHER MODS ***/
 .spine.spaced,.spine.spacedRibs, .spine.spacedRibs .rib { padding: 8px; }
-.rib.grower { flex: 1 0 0; }
+.rib.grower { flex: 1 0 0%; }
 .rib.spaced { padding: 16px; }
 
 /*************************************************************************************************/
